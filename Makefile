@@ -4,6 +4,7 @@ echo:
 	echo hello ETO Folks
 
 git-publish:
+	git remote set-url origin https://github.com/tonybutzer/eto-draft.git
 	#git remote set-url origin git@github.com:tonybutzer/eto-draft.git
 	git config --global user.email tonybutzer@gmail.com
 	git config --global user.name tonybutzer
